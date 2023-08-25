@@ -10,6 +10,7 @@ public class CircularQueueDriver {
         queue.enQueue(40);
         queue.enQueue(50);
         queue.dequeue();
+        queue.enQueue(60);
 
 
     }
