@@ -15,6 +15,17 @@ public class ArrayDequeAsStackJavaExample {
         integerArrayDeque.push(40);
         print(integerArrayDeque);
 
+        integerArrayDeque.pop();
+        print(integerArrayDeque);
+        integerArrayDeque.pop();
+        print(integerArrayDeque);
+        integerArrayDeque.pop();
+        print(integerArrayDeque);
 
+
+    }
+    static void print(Deque<Integer> integerDeque) throws InterruptedException {
+        System.out.println(integerDeque);
+        Thread.sleep(2000);
     }
 }
