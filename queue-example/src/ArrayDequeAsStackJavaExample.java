@@ -7,6 +7,13 @@ public class ArrayDequeAsStackJavaExample {
         Deque<Integer> integerArrayDeque = new ArrayDeque<>();
 
         integerArrayDeque.push(10);
+        print(integerArrayDeque);
+        integerArrayDeque.push(20);
+        print(integerArrayDeque);
+        integerArrayDeque.push(30);
+        print(integerArrayDeque);
+        integerArrayDeque.push(40);
+        print(integerArrayDeque);
 
 
     }
