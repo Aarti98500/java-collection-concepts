@@ -1,6 +1,26 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * Resizable-array implementation of the Deque interface.
+ * Array deque have no capacity restrictions;
+ * they grow as necessary to support usage.
+ * They are not thread-safe;
+ * in the absence of external synchronization,
+ * they do not support concurrent access by multiple threads.
+ * Null elements are prohibited.
+ * This class is likely to be faster than Stack when used as a stack,
+ * and faster than LinkedList when used as a queue.
+ */
+
+/**
+ * Queue
+ * Deque imp Queue
+ * ArrayDeque & LinkedList both imp Deque
+ *
+ */
+
+
 public class ArrayDequeAsDequeJavaExample {
     public static void main(String[] args) throws InterruptedException {
         //deque
