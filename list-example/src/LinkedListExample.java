@@ -16,5 +16,17 @@ public class LinkedListExample {
             this.next = next;
         }
     }
+    void addNode (Node newNode) throws InterruptedException {
+        if (head == null){
+            head = newNode;
+        }else {
+            Node temp = head;
+            while (temp.next!= null){
+                temp = temp.next;//move to next node
+            }
+            temp.next = newNode;
+        }
+
+    }
 
 }
