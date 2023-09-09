@@ -1,6 +1,21 @@
 import org.w3c.dom.Node;
 
 import java.io.IOException;
+//Node
+
+//Node is a class or DS that contains data and pointer(s).
+/*
+head = null;
+head -> [10, null]
+temp ->[10, null]
+head[1000h] -> [10, 2000h] --> [20, 3000h] --> [30, null] --> null
+                1000h            2000h           3000h
+head[2000h] --> [20, 3000h] --> [30, null] --> null
+                2000h            3000h
+
+head[1000h] -> [10, 3000h]  --> [30, null] --> null
+                1000h            3000h
+ */
 
 public class LinkedListExample {
     Node head;
