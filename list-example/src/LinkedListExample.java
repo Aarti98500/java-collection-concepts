@@ -1,6 +1,3 @@
-import org.w3c.dom.Node;
-
-import java.io.IOException;
 //Node
 
 //Node is a class or DS that contains data and pointer(s).
@@ -70,6 +67,32 @@ public class LinkedListExample {
             System.out.println("[ " +temp.data + (temp.next!= null ? temp.next.hashCode(): null) + "] -->");
             temp = temp.next;
             Thread.sleep(3000);
+        }
+        System.out.println("null");
+        System.out.println("\n--------------------");
+    }
+
+    public static void main(String[] args) {
+
+        Node first = new Node(10, null);//[10, null]
+        Node second = new Node(20, null);//[20, null]
+        Node third = new Node(30, null);//[30, null]
+        Node fourth = new Node(40, null);//[40, null]
+        Node fifth = new Node(50, null);//[50, null]
+
+        LinkedListExample linkedListExample = new LinkedListExample();
+
+        try{
+            linkedListExample.addNode(first);
+            linkedListExample.addNode(second);
+            linkedListExample.addNode(third);
+            linkedListExample.addNode(fourth);
+            linkedListExample.addNode(fifth);
+
+            linkedListExample.deleteNode(0);
+            linkedListExample.deleteNode(2);
+        }catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
     }
 
