@@ -19,6 +19,13 @@ public class HashSetExample {
         for (String fruitName : fruitNames){
             System.out.println("Name : " + fruitName);
         }
+        System.out.println("---------------------------");
+        fruitNames.remove("Apple");
+
+        for (String fruitName : fruitNames){
+            System.out.println("Name : " + fruitName);
+
+        }
 
         System.out.println("-----------------------");
         fruitNames.forEach(item -> System.out.println());
